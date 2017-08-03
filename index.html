@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC >
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tutorial AngularJs 2</title>
+    <link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/css/styles.css">
+    <!-- Js Begin --->
+    <!-- load the dependencies -->
+    <script type="text/javascript" src="node_modules/core-js/client/shim.min.js"></script>
+    <script type="text/javascript" src="node_modules/zone.js/dist/zone.js"></script>
+    <script type="text/javascript" src="node_modules/reflect-metadata/Reflect.js"></script>
+    <!-- load angular app with  system.js-->
+    <script type="text/javascript" src="node_modules/systemjs/dist/system.src.js"></script>
+    <script type="text/javascript" src="systemjs.config.js"></script>
+    <script>
+        system.import('app').catch(function (e) {
+            console.error(e);
+        });
+    </script>
+    <!-- Js End --->
+</head>
+<body class="container">
+I'm in the app !
+
+</body>
+</html>
